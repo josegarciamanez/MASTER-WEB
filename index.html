@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MASTER BOOTSTRAP</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/unite-gallery.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav id="menu" class="navbar navbar-expand-md fixed-top bg-transparent navbar-dark"> <a class="navbar-brand text-uppercase" href="#">GarMa Estudio</a>
+        <button id="menu" class="navbar-toggler hamburger hamburger--emphatic" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="hamburger-box">
+                  <span class="hamburger-inner"></span> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"> <a class="nav-link scroll" href="#principal">Home</a> </li>
+                <li class="nav-item"> <a class="nav-link scroll" href="#contenido1">Sección 1</a> </li>
+                <li class="nav-item"> <a class="nav-link scroll" href="#contenido2">Sección 2</a> </li>
+                <li class="nav-item"> <a class="nav-link scroll" href="#myCanvas">Sección 3</a> </li>
+                <li class="nav-item"> <a class="nav-link scroll" href="#pie">Sección 4</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="principal" class="container-fluid text-white text-uppercase">
+        <div class="starter-template">
+            <h1 class="mt-5 mb-5 elegantshd">plantilla inicio</h1>
+            <p class="mt-5 elegantshd">Bootstrap 4 - Template</p>
+            <p class="mt-5 elegantshd"><small>GarMaEstudio.com</small> </p>
+        </div>
+    </div>
+    <!-- DIV PARALLAX -->
+    <div class="container-fluid">
+        <div class="row">
+            <div id="contenido1" class="parallax" data-parallax-bg-image="img/bg.jpg" data-parallax-speed="0.7" data-parallax-direction="down" data-parallax-bg-size="auto" data-parallax-bg-position="center center">
+                <h2 class="borde-izq w-75 py-3 pl-3 mt-50 text-gray-dark text-uppercase"><strong>G</strong>ar<strong>M</strong>a Estudio Creativo</h2>
+            </div>
+        </div>
+    </div>
+    <!-- DIV ANIMACIÓN TEXTO -->
+    <div id="contenido2" class="container-fluid">
+        <div class="col-xs-12">
+            <div class="row mx-auto px-0">
+                <h3 class=" pt-5 text-center wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay=".5s">ESTUDIO FOTOGRÁFICO</h3>
+                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptas dignissimos, minus modi nisi, eligendi quidem totam reiciendis molestias repellendus inventore quos expedita nobis soluta hic et recusandae dolorum aliquam!</p>
+                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptas dignissimos, minus modi nisi, eligendi quidem totam reiciendis molestias repellendus inventore quos expedita nobis soluta hic et recusandae dolorum aliquam!</p>
+                <p class="pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque voluptas dignissimos, minus modi nisi, eligendi quidem totam reiciendis molestias repellendus inventore quos expedita nobis soluta hic et recusandae dolorum aliquam!</p>
+            </div>
+        </div>
+    </div>
+    <!-- CANVAS 1 -->
+    <canvas id="myCanvas"></canvas>
+    <!-- FOOTER -->
+    <footer id="pie" class="container-fluid">
+        <div class="row">
+            <h6 class="bg-inverse text-center w-100 py-3 xbootstrap">info@garmaestudio.com</h6>
+        </div>
+    </footer>
+    <!--    scripts javascript-->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/vendor/parallax-background.min.js"></script>
+    <!-- <script src="js/vendor/unitegallery.min.js "></script>
+<script src="js/vendor/ug-theme-tiles.js "></script>
+<script src="js/vendor/ug-theme-video.js "></script> -->
+    <script src="js/three.js"></script>
+    <script src="js/animacion1.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
+    <script>
+    wow = new WOW({
+        boxClass: 'wow', // default
+        animateClass: 'animated', // default
+        offset: 0, // default
+        mobile: false, // default
+        live: true // default
+    })
+    wow.init();
+    </script>
+    <!-- OPCIONES WOW
+        data-wow-duration: Change the animation duration
+        data-wow-delay: Delay before the animation starts
+        data-wow-offset: Distance to start the animation (related to the browser bottom)
+        data-wow-iteration: Number of times the animation is repeated
+                    <section class="wow slideInLeft " data-wow-duration="2s " data-wow-delay="2s ">
+                    </section>
+
+                    <section class="wow slideInRight " data-wow-offset="10 "  data-wow-iteration="10 ">
+                    </section> -->
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- <script>
+(function(b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] = function() {
+        (b[l].q = b[l].q || []).push(arguments)
+    });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = '//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+}(window, document, 'script', 'ga'));
+ga('create', 'UA-XXXXX-X', 'auto');
+ga('send', 'pageview');
+</script> -->
+</body>

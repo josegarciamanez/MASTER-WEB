@@ -1,0 +1,229 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+// COMPILAR SASS: sass --watch sass/estilos.sass:css/estilos.css
+
+//COLORES
+$color-primario: #FF0033
+$color-secundario: #3b2f2f
+$color-complementario: #fff
+$color-encabezados: #d5d5d5
+$color-textos: #fff
+
+$TechnoratiGreen: #85C329
+$TechnoratiGreenLight: #3BAF00
+$TechnoratiRed: #C90404
+$TechnoratiBlue: #000097
+$RSSButtonOrange: #FF6600
+$delBlue: #0000FF
+$JotspotOrange: #FFBF23
+$JotspotBlue: #C9E5FB
+$Techcrunchbrown: #B3A79F
+$TechcrunchAqua: #CBDDDD
+$Ninggreen: #339933
+$DiggBlue: #4F789F
+$DiggLightGreen: #C9F1B9
+$Basecampgreen: #83C983
+$BasecampBlue: #CDE7FB
+$WordpressBlue: #172973
+$WordpressBlack: #000000
+$BloggerOrange: #FF6600
+$BloggerBlue: #003366
+$FlickrPink: #FF0083
+$FlickrBlue: #0063DB
+$YahooRed: #FF0033
+$GoogleYellow: #EFB900
+$GoogleGreen: #007D08
+$GoogleDarkBlue: #1845AD
+$GoogleWhite: #FFFFFF
+$FirefoxOrange: #DF7417
+$FirefoxYellow: #FDF701
+$WritelyOlive: #859B0E
+$WritelyBlue: #327EBD
+$lastRed: #D10039
+$lastfmGrey: #91998D
+$MeasuremapBrown: #554D49
+$MeasuremapGrey: #7F7772
+$MeeboBlue: #A3B5C7
+$PhotobucketBlue: #247FE5
+$CampaignMonitorDarkBlue: #002E91
+$CampaignMonitorOrange: #FF9523
+$OrkutPurple: #AB0481
+$OrkutBlue: #D3DDED
+$thinkfreeGrey: #999999
+$thinkfreePink: #F577C3
+$WayfaringGreen: #128F35
+$WayfaringRed: #CB0000
+$WayfaringGrey: #3B3B3B
+$RiyaGreen: #74C343
+$RiyaGrey: #EFEFEF
+$RiyaYellow: #FDEB30
+$WebnoteYellow: #FFFF30
+$LinkedInBlue: #1777B1
+$LinkedInPastel: #F5E1CD
+$LinkedInOrange: #CB6600
+$SendspaceBlue: #DDEDFF
+$FlockPink: #FF12FF
+$FlockBlue: #4F9BEF
+$FlockGreen: #7CD300
+$SlashdotGreen: #006666
+$SlashdotGrey: #CBCBCB
+$NewsvineGreen: #71AB6B
+$winkPastel: #FDEDB7
+$Thisblue: #0AA9FD
+$winkDarkBlue: #05386B
+$FurlLightBlue: #F1F5FF
+$FurlOrange: #FF6C17
+$WiredRed: #ED2024
+$WiredGrey: #CBCBCB
+$AListApartCream: #EDEBD5
+$maMaroon: #34160C
+$maPink: #FF9966
+$WikipediaGrey: #B9B9B9
+$WikipediaBlue: #042EB9
+
+//FUENTES
+$fuente-principal: 'Roboto-light', sans-serif
+$fuente-secundaria: Helvetica, sans-serif
+//CSS
+html
+    font-size: 15px
+body
+    width: 100%
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span
+    font-family: $fuente-principal
+h1
+    font-size: 3rem
+h2
+    font-size: 2.5rem
+h3
+    font-size: 2rem
+h4
+    font-size: 1.8rem
+h5
+    font-size: 1.4rem
+h6
+    font-size: .9rem
+p
+    font-size: 1rem
+span
+    font-size: 1rem
+a
+    font-size: 1rem
+    font-weight: 100
+.starter-template
+    padding: 3rem 1.5rem
+    text-align: center
+nav
+    button:focus
+        border: white
+.nav-link
+    color: white !important
+    opacity: .7
+    letter-spacing: 3px
+    text-transform: uppercase
+    margin-left: 20px
+    line-height: 40px
+.nav-link:hover
+    opacity: 1
+.nav-link:active
+    opacity: 1
+#principal
+    height: 100vh
+    width: 100%
+    background-color: $color-complementario 
+#contenido1
+    width: 100%
+    height: 600px
+.borde-izq
+    border-left: 2px solid $color-complementario
+    margin-left: 20px
+    background-color: rgba(255, 255, 255, 0.4)
+    -webkit-border-radius: 10px 10px 0 0
+    border-radius: 0 10px 10px 0
+    letter-spacing: 8px
+    line-height: 70px
+.mt-50
+    margin-top: 9rem
+#contenido2
+    height: 600px
+    background-color: $NewsvineGreen
+    background-image: url('../img/336H.jpg')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center center
+    h3
+        color: $lastfmGrey
+    p
+        color: $lastfmGrey
+footer
+    position: relative
+    bottom: 0
+    border: none
+    width: 100%
+    background-color: black
+    color: white
+footer h6
+    margin: 0
+.elegantshd
+    color: #131313
+    background-color: $color-complementario
+    letter-spacing: .25em
+    text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d, -6px 12px 1px #828181,-7px 14px 1px #868585,-8px 16px 1px #8b8a89,-9px 18px 1px #8f8e8d,-10px 20px 1px #949392,-11px 22px 1px #999897,-12px 24px 1px #9e9c9c, -13px 26px 1px #a3a1a1, -14px 28px 1px #a8a6a6, -15px 30px 1px #adabab, -16px 32px 1px #b2b1b0, -17px 34px 1px #b7b6b5, -18px 36px 1px #bcbbba, -19px 38px 1px #c1bfbf, -20px 40px 1px #c6c4c4, -21px 42px 1px #cbc9c8, -22px 44px 1px #cfcdcd, -23px 46px 1px #d4d2d1, -24px 48px 1px #d8d6d5, -25px 50px 1px #dbdad9, -26px 52px 1px #dfdddc, -27px 54px 1px #e2e0df, -28px 56px 1px #e4e3e2
+.xbootstrap
+    color: #202020
+    background-color: #2d2d2d
+    letter-spacing: .1em
+    text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636
+.bg-dark
+    -webkit-transition: all .9s ease
+    -o-transition: all .9s ease
+    -webkit-transition: all .9s ease
+    transition: all .9s ease
+.bg-transparent
+    background-color: transparent
+    -webkit-transition: all .9s ease
+    -o-transition: all .9s ease
+    transition: all .9s ease
+.navbar-dark
+    -webkit-transition: all .9s ease
+    -o-transition: all .9s ease
+    -webkit-transition: all .9s ease
+    transition: all .9s ease
+.navbar-light
+    -webkit-transition: all .9s ease
+    -o-transition: all .9s ease
+    -webkit-transition: all .9s ease
+    transition: all .9s ease
+@media (min-width: 576px)
+    html
+        font-size: 16px
+    a
+        font-size: 14px
+        font-weight: 100
+@media (min-width: 768px)
+    html
+        font-size: 18px
+    a
+        font-size: 14px
+        font-weight: 100
+@media (min-width: 992px)
+    html
+        font-size: 22px
+    a
+        font-size: 14px
+        font-weight: 100
+@media (min-width: 1200px)
+    html
+        font-size: 26px
+    a
+        font-size: 14px
+        font-weight: 100
