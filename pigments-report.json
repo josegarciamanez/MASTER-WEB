@@ -1,0 +1,75 @@
+{
+  "atom": "1.19.2",
+  "pigments": "0.40.2",
+  "platform": "darwin",
+  "config": {
+    "autocompleteSuggestionsFromValue": true,
+    "extendAutocompleteToColorValue": true,
+    "extendAutocompleteToVariables": true,
+    "groupPaletteColors": "by file",
+    "sortPaletteColors": "by color",
+    "traverseIntoSymlinkDirectories": false,
+    "sourceNames": [
+      "**/*.css",
+      "**/*.styl",
+      "**/*.stylus",
+      "**/*.less",
+      "**/*.sass",
+      "**/*.scss"
+    ],
+    "ignoredNames": [
+      "vendor/*",
+      "node_modules/*",
+      "spec/*",
+      "test/*"
+    ],
+    "ignoredBufferNames": [],
+    "extendedSearchNames": [
+      "**/*.css"
+    ],
+    "supportedFiletypes": [
+      "*"
+    ],
+    "filetypesForColorWords": [
+      "css",
+      "less",
+      "styl",
+      "stylus",
+      "sass",
+      "scss"
+    ],
+    "ignoredScopes": [],
+    "autocompleteScopes": [
+      ".source.css",
+      ".source.css.less",
+      ".source.sass",
+      ".source.css.scss",
+      ".source.stylus"
+    ],
+    "maxDecorationsInGutter": 100,
+    "markerType": "native-background",
+    "sassShadeAndTintImplementation": "compass",
+    "mergeColorDuplicates": false,
+    "delayBeforeScan": 500,
+    "ignoreVcsIgnoredPaths": true,
+    "notifyReloads": true,
+    "dismissableReloadNotifications": true
+  },
+  "project": {
+    "config": {},
+    "paths": [
+      "<root>/css/animate.css",
+      "<root>/css/bootstrap.css",
+      "<root>/css/bootstrap.min.css",
+      "<root>/css/estilos.css",
+      "<root>/css/hamburgers.css",
+      "<root>/css/hamburgers.min.css",
+      "<root>/css/unite-gallery.css",
+      "<root>/sass/estilos.sass"
+    ],
+    "variables": {
+      "colors": 10,
+      "total": 16
+    }
+  }
+}
