@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Navbar",
+    "code": "<nav class=\"navbar navbar-toggleable-md navbar-inverse bg-inverse\">\n  <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <a class=\"navbar-brand\" href=\"#\">Logotipo</a>\n  <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n    <ul class=\"navbar-nav ml-auto px-5\">\n      <li class=\"nav-item active px-3\">\n        <a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>\n      </li>\n      <li class=\"nav-item px-3\">\n        <a class=\"nav-link\" href=\"#\">Productos</a>\n      </li>\n      <li class=\"nav-item px-3\">\n        <a class=\"nav-link\" href=\"#\">Servicios</a>\n      </li>\n      <li class=\"nav-item px-3\">\n        <a class=\"nav-link\" href=\"#\">Empresa</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" href=\"#\">Contacto</a>\n      </li>\n    </ul>\n  </div>\n</nav>",
+    "description": "Navegación en página única por scroll.",
+    "inlineCss": "#snippet { \n\n}",
+    "includeJs": "true",
+    "isEdited": true,
+    "isDeleted": false
+  }
+]
